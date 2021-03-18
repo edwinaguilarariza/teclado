@@ -1,5 +1,5 @@
 //variables de los botones
-
+//cuarta prueba de git
 
 let casillas = document.getElementById("casillas");
 let historial = document.getElementById("historial");
