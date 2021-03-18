@@ -1,9 +1,6 @@
-//variables de los botones
-//cuarta prueba de git
-
 let casillas = document.getElementById("casillas");
 let historial = document.getElementById("historial");
-let mensajes = document.getElementById("mensajes");
+//let mensajes = document.getElementById("mensajes");
 
 let btnNum1 = document.getElementById("btnNum1");
 let btnNum2 = document.getElementById("btnNum2");
@@ -65,212 +62,348 @@ const btnNum1H = () => {
 };
 
 const btnNum2H = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "2";
-      historial.innerHTML = historialTemp + "2";
-      historialTemp = historialTemp + "2";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "2";
+    historial.innerHTML = historialTemp + "2";
+    historialTemp = historialTemp + "2";
+    console.log(numerosTemp);
+  }
 };
 
 const btnNum3H = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "3";
-      historial.innerHTML = historialTemp + "3";
-      historialTemp = historialTemp + "3";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "3";
+    historial.innerHTML = historialTemp + "3";
+    historialTemp = historialTemp + "3";
+    console.log(numerosTemp);
+  }
 };
 
 const btnNum4H = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "4";
-      historial.innerHTML = historialTemp + "4";
-      historialTemp = historialTemp + "4";
-      console.log(numerosTemp);
-    }
-  };
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "4";
+    historial.innerHTML = historialTemp + "4";
+    historialTemp = historialTemp + "4";
+    console.log(numerosTemp);
+  }
+};
 
-  const btnNum5H = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "5";
-      historial.innerHTML = historialTemp + "5";
-      historialTemp = historialTemp + "5";
-      console.log(numerosTemp);
-    }
-  };
+const btnNum5H = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "5";
+    historial.innerHTML = historialTemp + "5";
+    historialTemp = historialTemp + "5";
+    console.log(numerosTemp);
+  }
+};
 
-  const btnNum6H = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "6";
-      historial.innerHTML = historialTemp + "6";
-      historialTemp = historialTemp + "6";
-      console.log(numerosTemp);
-    }
-  };
+const btnNum6H = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "6";
+    historial.innerHTML = historialTemp + "6";
+    historialTemp = historialTemp + "6";
+    console.log(numerosTemp);
+  }
+};
 
-  const btnNum7H = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "7";
-      historial.innerHTML = historialTemp + "7";
-      historialTemp = historialTemp + "7";
-      console.log(numerosTemp);
-    }
-  };
+const btnNum7H = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "7";
+    historial.innerHTML = historialTemp + "7";
+    historialTemp = historialTemp + "7";
+    console.log(numerosTemp);
+  }
+};
 
-  const btnNum8H = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "8";
-      historial.innerHTML = historialTemp + "8";
-      historialTemp = historialTemp + "8";
-      console.log(numerosTemp);
-    }
-  };
+const btnNum8H = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "8";
+    historial.innerHTML = historialTemp + "8";
+    historialTemp = historialTemp + "8";
+    console.log(numerosTemp);
+  }
+};
 
-  const btnNum9H = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "9";
-      historial.innerHTML = historialTemp + "9";
-      historialTemp = historialTemp + "9";
-      console.log(numerosTemp);
-    }
-  };
-  
-  //letras
+const btnNum9H = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "9";
+    historial.innerHTML = historialTemp + "9";
+    historialTemp = historialTemp + "9";
+    console.log(numerosTemp);
+  }
+};
 
-  const btnLetrasQH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "q";
-      historial.innerHTML = historialTemp + "q";
-      historialTemp = historialTemp + "q";
-      console.log(numerosTemp);
-    }
+//letras
+
+const btnLetrasQH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "q";
+    historial.innerHTML = historialTemp + "q";
+    historialTemp = historialTemp + "q";
+    console.log(numerosTemp);
+  }
 };
 const btnLetrasWH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "w";
-      historial.innerHTML = historialTemp + "w";
-      historialTemp = historialTemp + "w";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "w";
+    historial.innerHTML = historialTemp + "w";
+    historialTemp = historialTemp + "w";
+    console.log(numerosTemp);
+  }
 };
-  
+
 const btnLetrasEH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "e";
-      historial.innerHTML = historialTemp + "e";
-      historialTemp = historialTemp + "e";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "e";
+    historial.innerHTML = historialTemp + "e";
+    historialTemp = historialTemp + "e";
+    console.log(numerosTemp);
+  }
 };
 
 const btnLetrasRH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "r";
-      historial.innerHTML = historialTemp + "r";
-      historialTemp = historialTemp + "r";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "r";
+    historial.innerHTML = historialTemp + "r";
+    historialTemp = historialTemp + "r";
+    console.log(numerosTemp);
+  }
 };
 
 const btnLetrasTH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "t";
-      historial.innerHTML = historialTemp + "t";
-      historialTemp = historialTemp + "t";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "t";
+    historial.innerHTML = historialTemp + "t";
+    historialTemp = historialTemp + "t";
+    console.log(numerosTemp);
+  }
 };
 const btnLetrasYH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "y";
-      historial.innerHTML = historialTemp + "y";
-      historialTemp = historialTemp + "y";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "y";
+    historial.innerHTML = historialTemp + "y";
+    historialTemp = historialTemp + "y";
+    console.log(numerosTemp);
+  }
 };
 const btnLetrasIH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "i";
-      historial.innerHTML = historialTemp + "i";
-      historialTemp = historialTemp + "i";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "i";
+    historial.innerHTML = historialTemp + "i";
+    historialTemp = historialTemp + "i";
+    console.log(numerosTemp);
+  }
 };
 const btnLetrasOH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "o";
-      historial.innerHTML = historialTemp + "o";
-      historialTemp = historialTemp + "o";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "o";
+    historial.innerHTML = historialTemp + "o";
+    historialTemp = historialTemp + "o";
+    console.log(numerosTemp);
+  }
 };
 const btnLetrasPH = () => {
-    if (numerosTemp === "") {
-      casillas.innerHTML = numerosTemp + "p";
-      historial.innerHTML = historialTemp + "p";
-      historialTemp = historialTemp + "p";
-      console.log(numerosTemp);
-    }
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "p";
+    historial.innerHTML = historialTemp + "p";
+    historialTemp = historialTemp + "p";
+    console.log(numerosTemp);
+  }
 };
 
 //enter
 
-//enter 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+//enter
 
+const btnLetrasAH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "a";
+    historial.innerHTML = historialTemp + "a";
+    historialTemp = historialTemp + "a";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasSH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "s";
+    historial.innerHTML = historialTemp + "s";
+    historialTemp = historialTemp + "s";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasDH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "d";
+    historial.innerHTML = historialTemp + "d";
+    historialTemp = historialTemp + "d";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasFH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "f";
+    historial.innerHTML = historialTemp + "f";
+    historialTemp = historialTemp + "f";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasGH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "g";
+    historial.innerHTML = historialTemp + "g";
+    historialTemp = historialTemp + "g";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasHH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "h";
+    historial.innerHTML = historialTemp + "h";
+    historialTemp = historialTemp + "h";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasJH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "j";
+    historial.innerHTML = historialTemp + "j";
+    historialTemp = historialTemp + "j";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasKH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "k";
+    historial.innerHTML = historialTemp + "k";
+    historialTemp = historialTemp + "k";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasLH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "l";
+    historial.innerHTML = historialTemp + "l";
+    historialTemp = historialTemp + "l";
+    console.log(numerosTemp);
+  }
+};
+const btnLetrasN_H = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "ñ";
+    historial.innerHTML = historialTemp + "ñ";
+    historialTemp = historialTemp + "ñ";
+    console.log(numerosTemp);
+  }
+};
 
+//otra fila de botones
 
+const btnLetrasZH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "z";
+    historial.innerHTML = historialTemp + "z";
+    historialTemp = historialTemp + "z";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasXH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "x";
+    historial.innerHTML = historialTemp + "x";
+    historialTemp = historialTemp + "x";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasCH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "c";
+    historial.innerHTML = historialTemp + "c";
+    historialTemp = historialTemp + "c";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasVH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "v";
+    historial.innerHTML = historialTemp + "v";
+    historialTemp = historialTemp + "v";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasBH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "b";
+    historial.innerHTML = historialTemp + "b";
+    historialTemp = historialTemp + "b";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasNH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "n";
+    historial.innerHTML = historialTemp + "n";
+    historialTemp = historialTemp + "n";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasMH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "m";
+    historial.innerHTML = historialTemp + "m";
+    historialTemp = historialTemp + "m";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasComaH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + ",";
+    historial.innerHTML = historialTemp + ",";
+    historialTemp = historialTemp + ",";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasPuntoYComaH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + ";";
+    historial.innerHTML = historialTemp + ";";
+    historialTemp = historialTemp + ";";
+    console.log(numerosTemp);
+  }
+};
 
+const btnLetrasPuntoH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + ".";
+    historial.innerHTML = historialTemp + ".";
+    historialTemp = historialTemp + ".";
+    console.log(numerosTemp);
+  }
+};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const btnLetrasGuionH = () => {
+  if (numerosTemp === "") {
+    casillas.innerHTML = numerosTemp + "-";
+    historial.innerHTML = historialTemp + "-";
+    historialTemp = historialTemp + "-";
+    console.log(numerosTemp);
+  }
+};
 
 //botones especiales
 const btnBorrarH = () => {
@@ -278,6 +411,7 @@ const btnBorrarH = () => {
   letrasTemp = "";
   historialTemp = "";
   casillas.innerHTML = "";
+  historial.innerHTML = "";
 };
 
 //botones numeros
@@ -285,82 +419,138 @@ btnNum1.onclick = function () {
   btnNum1H();
 };
 btnNum2.onclick = function () {
-    btnNum2H();
+  btnNum2H();
 };
 btnNum3.onclick = function () {
-    btnNum3H();
+  btnNum3H();
 };
 btnNum4.onclick = function () {
-    btnNum4H();
+  btnNum4H();
 };
 btnNum5.onclick = function () {
-    btnNum5H();
+  btnNum5H();
 };
 btnNum6.onclick = function () {
-    btnNum6H();
+  btnNum6H();
 };
 btnNum7.onclick = function () {
-    btnNum7H();
+  btnNum7H();
 };
 btnNum8.onclick = function () {
-    btnNum8H();
+  btnNum8H();
 };
 btnNum9.onclick = function () {
-    btnNum9H();
+  btnNum9H();
 };
 
 //botones letras
 
 btnLetrasQ.onclick = function () {
-    btnLetrasQH();
+  btnLetrasQH();
 };
 btnLetrasW.onclick = function () {
-    btnLetrasWH();
+  btnLetrasWH();
 };
 btnLetrasE.onclick = function () {
-    btnLetrasEH();
+  btnLetrasEH();
 };
 btnLetrasR.onclick = function () {
-    btnLetrasRH();
+  btnLetrasRH();
 };
 btnLetrasT.onclick = function () {
-    btnLetrasTH();
+  btnLetrasTH();
 };
 btnLetrasY.onclick = function () {
-    btnLetrasYH();
+  btnLetrasYH();
 };
 btnLetrasI.onclick = function () {
-    btnLetrasIH();
+  btnLetrasIH();
 };
 btnLetrasO.onclick = function () {
-    btnLetrasOH();
+  btnLetrasOH();
 };
 btnLetrasP.onclick = function () {
-    btnLetrasPH();
+  btnLetrasPH();
 };
 
 //enter
 
-//enter 
+//enter
 
+btnLetrasA.onclick = function () {
+  btnLetrasAH();
+};
 
+btnLetrasS.onclick = function () {
+  btnLetrasSH();
+};
+btnLetrasD.onclick = function () {
+  btnLetrasDH();
+};
 
+btnLetrasF.onclick = function () {
+  btnLetrasFH();
+};
 
+btnLetrasG.onclick = function () {
+  btnLetrasGH();
+};
 
+btnLetrasH.onclick = function () {
+  btnLetrasHH();
+};
 
+btnLetrasJ.onclick = function () {
+  btnLetrasJH();
+};
 
+btnLetrasK.onclick = function () {
+  btnLetrasKH();
+};
 
+btnLetrasL.onclick = function () {
+  btnLetrasLH();
+};
 
+btnLetrasN_.onclick = function () {
+  btnLetrasN_H();
+};
 
+//otra fila de botones
 
-
-
-
-
-
-
-
-
+btnLetrasZ.onclick = function () {
+  btnLetrasZH();
+};
+btnLetrasX.onclick = function () {
+  btnLetrasXH();
+};
+btnLetrasC.onclick = function () {
+  btnLetrasCH();
+};
+btnLetrasV.onclick = function () {
+  btnLetrasVH();
+};
+btnLetrasB.onclick = function () {
+  btnLetrasBH();
+};
+btnLetrasN.onclick = function () {
+  btnLetrasNH();
+};
+btnLetrasM.onclick = function () {
+  btnLetrasMH();
+};
+btnLetrasComa.onclick = function () {
+  btnLetrasComaH();
+};
+btnLetrasPuntoYComa.onclick = function () {
+  btnLetrasPuntoYComaH();
+};
+btnLetrasPunto.onclick = function () {
+  btnLetrasPuntoH();
+};
+btnLetrasGuion.onclick = function () {
+  btnLetrasGuionH();
+};
 
 //borrar
 btnBorrar.onclick = function () {
