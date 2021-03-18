@@ -1,3 +1,5 @@
+//let casillas = document.getElementById("casillas");
+
 let casillas = document.getElementById("casillas");
 let historial = document.getElementById("historial");
 let mensajes = document.getElementById("mensajes");
