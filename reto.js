@@ -1,4 +1,5 @@
-//let casillas = document.getElementById("casillas");
+//variables de los botones
+
 
 let casillas = document.getElementById("casillas");
 let historial = document.getElementById("historial");
